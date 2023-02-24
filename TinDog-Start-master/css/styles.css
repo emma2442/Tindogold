@@ -1,0 +1,286 @@
+body {
+    font-family: Montserrat;
+}
+
+#title {
+    background-color: #A084CA;
+    color: #ffffff;
+    height: 800px;
+}
+
+#title a {
+    background-color: #A084CA;
+    color: #ffffff;
+}
+
+.container-fluid{
+    padding: 5%;
+}
+
+.navbar {
+    padding: 2 0 1rem;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: Montserrat;
+}
+
+.row{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#rowfeatures{
+    background-color: white;
+}
+
+#col {
+    display: flex;
+    align-items: center;
+}
+
+.col-lg-6 {
+    padding-top: 5%;
+}
+
+h1{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0%
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(20deg);
+}
+
+#features{
+    background-color: white;
+
+}
+
+.col-sm-4{
+    background-color: white;
+    min-width: 320px;
+}
+
+.fas{
+    color: #A084CA;
+    height: 100px;
+    width: 100px; 
+    margin: 10px auto;
+    max-width: 100%;
+}
+
+.fas:hover {
+    color: #645CAA;
+}
+
+.card-title{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+}
+
+.card-text{
+    font-family: 'Montserrat';
+    color: #8f8f8f;
+}
+
+#testimonials1 {
+    background-color: #A084CA;
+    color: #ffffff;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+}
+#testimonials {
+    background-color: #A084CA;
+    color: #ffffff;
+}
+
+#blank.container{
+    background-color: white;
+    padding: 2%;
+    width: 100%;
+}
+
+#profiles.row {
+    padding: 10%;
+}
+
+#blank2.container{
+    background-color: white;
+    padding: 0.5%;
+    margin:0;
+}
+
+#blank3.container{
+    background-color: white;
+    padding: 0.1%;
+    margin-bottom: 70px;
+    width: 100%;
+}
+
+
+h3{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+h2{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+h4{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+    justify-content: left;
+    text-align: left;
+}
+
+h5{
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 1.5;
+    justify-content: left;
+    text-align: left;
+}
+
+h6{
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+
+.button-45 {
+  align-items: center;
+  background-color: #EBC7E8;
+  background-position: 0 0;
+  border: 1px solid #FEE0E0;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #645CAA;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 33.4929px;
+  list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+  padding: 5px 12px;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: none;
+  text-underline-offset: 1px;
+  transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  word-break: break-word;
+}
+
+.button-45:active,
+.button-45:hover,
+.button-45:focus {
+  outline: 0;
+}
+
+
+.button-45:active {
+  background-color: #645CAA;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+
+.button-45:hover {
+  background-color: #BFACE0;
+  border-color: #A084CA;
+}
+
+.button-45:active:hover,
+.button-45:focus:hover,
+.button-45:focus {
+  background-color: #645CAA;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+
+#contact-form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-radius: 10px;
+  }
+  
+  #contact-form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  #contact-form input[type="text"],
+  #contact-form input[type="email"],
+  #contact-form input[type="variable"],
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  #contact-form input[type="submit"] {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #645CAA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  #contact-form input[type="submit"]:hover {
+    background-color: #2e2a4f;
+  }
+  
+  #p {
+    padding-top: 8px;
+    padding-right: 8px;
+    font-size: 14px;
+    text-align: right;
+  }
+  
